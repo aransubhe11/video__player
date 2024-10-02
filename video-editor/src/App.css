@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  height: 100vh;    
+  flex-direction: column;  
+  padding: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 1080px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center; 
+  margin-bottom: 0;
+}
+
+.responsive-player {
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+  position: relative;
+}
+
+.video-controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.video-controls button {
+  margin: 0;
+  padding: 8px 16px; 
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.video-controls button:hover {
+  background-color: #0056b3;
+}
+
+.video-trimmer{
+  margin-left: 50px;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@remotion/player": "^4.0.215",
+    "react-range-slider": "^0.2.1"
+  }
+}
